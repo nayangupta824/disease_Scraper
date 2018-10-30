@@ -32,6 +32,7 @@ for sub_disease in diseases_list_link:
 	for row in rows:
 		cnt = 0
 		cells = row.findChildren('td')
+		diseases_list_link = []
 		inc = 0
 		for cell in cells:
 			cnt = cnt + 1
